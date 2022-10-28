@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600;700&family=Inconsolata:wght@300;400;600&family=Open+Sans:wght@300&family=Rubik:wght@300;400;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav ul{
+    display: flex;
+}
+
+.main-nav ul li{
+    padding: 0 40px;
+}
+
+.main-nav ul li a{
+    font-size: 16px;
+    color: #93999a;
+}
+
+.main-nav ul li a:hover{
+    color: #000;
+
+}
+
+.showcase{
+    margin-top: 200px;
+}
+
+.showcase .grid-showcase .grid-2-showcase img{
+    width: 600px;
+    height: 500px;
+}
+
+.showcase .grid-showcase{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.showcase .grid-showcase .grid-1-showcase{
+    margin-top: 150px;
+}
+
+.showcase .grid-showcase .grid-1-showcase h4{
+    font-size: 36px;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.showcase .grid-showcase .grid-1-showcase p{
+    margin-top: 20px;
+    color: #5b5e5f;
+    margin-bottom: 20px;
+}
+
+.showcase .grid-showcase .grid-1-showcase .btn-1{
+    padding: 15px 28px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(74, 86, 192);
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.showcase .grid-showcase .grid-1-showcase .btn-1:hover{
+   opacity: 0.8;
+}
+
+.showcase .grid-showcase .grid-1-showcase .btn-2{
+    padding: 15px 28px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(195, 195, 17);
+    color: #fff;
+    cursor: pointer;
+}
+
+.showcase .grid-showcase .grid-1-showcase .btn-2:hover{
+    opacity: 0.8;
+ }
+
+ .showcase-1{
+    margin-top: 90px;
+ }
+
+ .heading{
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.heading p{
+    margin-top: 30px;
+    color: #93999a;
+ }
+
+ .example{
+    margin-top: 170px;
+ }
+
+ .example-1 h4{
+    text-align: left;
+    color: purple;
+    font-size: 25px;
+    font-weight: bolder;
+ }
+
+ .example .card{
+    background-color: #eefcff;
+    height: 130px;
+    width: 100%;
+    margin-top: 10px;
+ }
+
+ .card .card-heading{
+    padding: 50px 40px;
+    /* margin: 80px; */
+}
+
+.btn-3{
+    padding: 11px 15px;
+    border: none;
+    background-color: #800080;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-3:hover{
+    opacity: 0.8;
+}
+
+.resources{
+    margin-top: 140px;
+}
+
+.resources .example-1 p{
+    margin-top: 20px;
+}
+
+.list{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.list li{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.list li .btn-4{
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.list li .btn-4:hover{
+    opacity: 0.8;
+}
+
+.btn-5{
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.btn-5:hover{
+    opacity: 0.8;
+}
+
+.routes{
+    margin-top: 90px;
+}
+
+.routes .router-heading h4{
+    text-align: left;
+    color: purple;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.routes .router-heading p{
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: #eefcff;
+    height: 190px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.footer-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+}
+
+
+@media(max-width:900px){
+    .showcase .grid-showcase .grid-2-showcase img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .showcase .grid-showcase .grid-1-showcase .btn-2{
+        margin-top: 20px;
+    }
+
+    .showcase .grid-showcase .grid-1-showcase{
+        margin-top: 10px;
+    }
+}
+
+
+
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeStore-Api</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+       <div class="container">
+         <nav class="main-nav">
+            <i class="fa-sharp fa-solid fa-face-smile-wink"></i>
+            <ul class="main-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Buy me a Coffee</a></li>
+            </ul>
+         </nav>
+
+         <section class="showcase">
+            <div class="grid-showcase">
+                <div class="grid-1-showcase">
+                    <h4>Fake Store Api</h4>
+                    <p>Fake store rest API for your e-commerce or shopping website prototype</p>
+                    <button type="submit" class="btn-1">View On GitHub <i style="margin-left: 18px;" class="fa-brands fa-github"></i></button>
+                    <button type="submit" class="btn-2">Read Docs <i style="margin-left: 30px;" class="fa-regular fa-book"></i></button>
+                </div>
+                <div class="grid-2-showcase">
+                    <img src="./images/showcase.svg" alt="">
+                </div>
+            </div>
+         </section>
+
+         <section class="showcase-1">
+            <div class="heading">
+                <h3>Get tired of Lorem ipsum data?! Didn't you find any free e-commerce API?!</h3>
+                <p>fakeStoreApi is a free online REST API that you can use whenever you need Pseudo-real data for your e-commerce or shopping website without running any server-side code. It's awesome for teaching purposes, sample codes, tests, etc.</p>
+            </div>
+         </section>
+
+
+         <section class="example">
+            <div class="example-1">
+                <h4>Example Code</h4>
+            </div>
+
+            <div class="card">
+                <p class="card-heading">fetch('https://fakestoreapi.com/products/1')
+                    .then(res=>res.json())
+                    .then(json=>console.log(json))</p>
+            </div>
+            <div class="try">
+                <button type="submit" class="btn-3">Try It</button>
+            </div>
+         </section>
+
+         <section class="resources">
+            <div class="example-1">
+                <h4>Resources</h4>
+                <p>There are 4 main resources needs in shopping prototype.</p>
+            </div>
+     
+            <ul class="list">
+                <li>
+                    <a href="#">Products</a>
+                    <p>20 Products</p>
+                </li>
+                <li>
+                    <a href="#">Cart</a>
+                    <p>20 Cart Items</p>
+                </li>
+                <li>
+                    <a href="#">Users</a>
+                    <p>10 Users</p>
+                </li>
+
+                <li>
+                    <a href="#">Login Token</a>
+                    <button type="submit" class="btn-4">New!</button>
+                </li>
+            </ul>
+            <button class="btn-5">View Details on Docs</button>
+         </section>
+ 
+        <section class="routes">
+            <div class="router-heading">
+                <h4>Routes</h4>
+                <p>All HTTPS methods are supported.</p>
+            </div>
+
+            <ul class="list">
+                <li>
+                    <p>GET</p>
+                    <a href="#">/products</a>
+                </li>
+
+                <li>
+                    <p>GET</p>
+                    <a href="#">/products/1</a>
+                </li>
+                
+                <li>
+                    <p>GET</p>
+                    <a href="#">/product/categories</a>
+                </li>
+
+                <li>
+                    <p>GET</p>
+                    <a href="#">/product/categories/electornics</a>
+                </li>
+
+                <li>
+                    <p>GET</p>
+                    <a href="#">/product/userid?=1</a>
+                </li>
+
+                <li>
+                    <p>POST</p>
+                    <a href="#">/product</a>
+                </li>
+
+                <li>
+                    <p>PUT</p>
+                    <a href="#">/product/1</a>
+                </li>
+
+                <li>
+                    <p>PATCH</p>
+                    <a href="#">/product/1</a>
+                </li>
+
+                <li>
+                    <p>DELETE</p>
+                    <a href="#">/product/1</a>
+                </li>
+            </ul>
+
+            <button class="btn-5">View Detail on Docs</button>
+        </section>
+        
+
+       </div>
+
+       <footer class="footer">
+        <div class="footer-heading">
+            <p>Made With &hearts; By - Shubham Sharma</p>
+            <i class="fa-regular fa-mug-saucer"></i> Buy me a Coffee
+        </div>
+       </footer>
+</body>
+</html>
